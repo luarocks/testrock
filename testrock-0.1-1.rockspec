@@ -1,7 +1,8 @@
 package = "testrock"
-version = "dev-1"
+version = "0.1-1"
 source = {
-   url = "git+https://github.com/luarocks/testrock.git"
+   url = "git+https://github.com/luarocks/testrock.git",
+   tag = "bigfile",
 }
 description = {
    homepage = "https://github.com/luarocks/testrock",
@@ -12,5 +13,5 @@ build = {
    type = "builtin",
    modules = {
       testrock = "testrock.lua"
-   }
+   },
 }
